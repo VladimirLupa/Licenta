@@ -1,0 +1,196 @@
+body{
+	background-color:#2D3053;
+
+}
+
+
+.container-panou-login
+{
+
+	 height:700px;
+	background-color: #363C59;
+	border: 1px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+
+
+
+.lista-butoane
+{
+	padding-left: 0;
+	display: inline-block;
+	/*margin-bottom: 5px;*/
+	margin-left: 33px;
+	/*margin-right: 33px;*/
+	width: 200px;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+.lista-butoane li
+{
+	display: inline-block;
+	font-size: 120%;
+	color: #d0d8e1;
+	width: 80px;
+	float: left;
+	cursor: pointer;
+}
+
+#sign-in
+{
+	float: left;
+	margin-right: 10px;
+}
+
+#sign-up
+{
+	text-align: center;
+	margin: 0 9px;
+}
+
+
+.active-underline
+{
+	border: 1px solid white;
+	width: 67px;
+	background-color: white;
+	position: relative;
+	left: 33px;
+	border-radius: 5px;
+
+}
+
+
+
+#input_form{
+	position: relative;
+	margin-top: 50px;
+}
+
+
+.input-block{
+	/* width: 300px; */
+	height: 40px;
+	border:1px solid #d0d8e1;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background-color: #5E607D;
+	position: relative;
+}
+
+.input_value{
+	width: 92%;
+	/* padding-left: 25px; */
+	background-color: transparent;
+	border: 0px;
+	/* height: 100%; */
+	
+}
+.input_password_value{
+	width: 92%;
+	/* padding-left: 25px; */
+	background-color: transparent;
+	border: 0px;
+	/* height: 100%; */
+}
+
+
+input[type="text"]{
+	/* position: relative; */
+	padding-left: 25px;
+	font-size: 140%;
+	color: #d0d8e1;
+	z-index: 5;
+	text-decoration: none;
+}
+
+input[type="email"]{
+	/* position: relative; */
+	padding-left: 25px;
+	font-size: 140%;
+	color: #d0d8e1;
+	z-index: 5;
+	text-decoration: none;
+}
+
+
+
+
+input[type="password"]{
+	position: relative;
+	padding-left: 25px;
+	font-size: 140%;
+	color: #d0d8e1;
+	z-index: 5;
+	text-decoration: none;
+}
+
+#password{
+	margin-bottom: 20px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+/* stilul textului din form */
+::placeholder { 
+	color:#d0d8e1;
+	text-align: center;
+    opacity: 1;
+}
+
+
+/*stilul checkboxului*/
+
+
+/* stilul butonului submit*/
+input[type=submit] {
+    /* padding:10px 100px;  */
+	background:#1851EF;
+	color: white;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+	border-radius: 10px;
+	margin-bottom: 25px; 
+	height: 45px;
+}
+
+
+/*stil link recuperare parola*/	
+
+a{
+	color:#d0d8e1;
+	text-decoration: none;
+}
+a:link{
+	color:#d0d8e1;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#d0d8e1;
+	text-decoration: none;
+}
+
+.parola-repetata{
+    margin-bottom: 100px;
+}
+
+@media   (min-width: 400px) {
+    .container {
+        
+        width: 400px;
+    }
+}
