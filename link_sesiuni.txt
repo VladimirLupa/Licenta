@@ -1,0 +1,5 @@
+
+https://www.tutorialspoint.com/php/php_mysql_login.htm
+http://php.net/manual/en/function.session-register.php
+https://www.formget.com/login-form-in-php/
+https://stackoverflow.com/questions/17014531/php-calling-mysql-stored-procedure-with-both-input-and-output-parameters-not
