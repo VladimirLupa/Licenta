@@ -1,0 +1,16 @@
+https://stackoverflow.com/questions/11482527/parse-error-syntax-error-unexpected-end-of-file-in-my-php-code
+
+http://php.net/manual/ro/function.stripslashes.php
+					
+
+
+https://www.tutorialspoint.com/php/php_mysql_login.htm
+
+
+https://www.formget.com/login-form-in-php/
+
+
+https://stackoverflow.com/questions/17014531/php-calling-mysql-stored-procedure-with-both-input-and-output-parameters-not
+
+
+why don't destroy session after closing browser
