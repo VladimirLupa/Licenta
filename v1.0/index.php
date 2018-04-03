@@ -5,7 +5,7 @@ session_start();
 echo"aici2";
 $error=''; // variabila careia ii asignez mesajele de eroare;
 echo"aici3";
-if($_SERVER["REQUEST_METHOD"] == "POST") 
+if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
     echo"aici4";
     if (isset($_POST['submit'])) 
@@ -41,7 +41,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 				{
 					$_SESSION['login_user']=$username; // Initializing Session
 					$_SESSION['color']='red';
-					$_SESSION['loggedin_time'] = time(); 
+					$timezone =date_default_timezone_set('Europe/Bucharest');
+					$date = new \DateTime();
+					$date= date_format($date, 'Y-m-d H:i:s');
+					$sql_date = "UPDATE utilizatori SET Data_ultima_logare ='$date' WHERE Username= '$username'";
+					$query = mysqli_query($db,$sql_date);
 					header("location: asd.php"); // Redirecting To Other Page
 				}
 				else 
@@ -49,14 +53,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 					$error = "Username or Password is invalid";
 					echo $error;
 				}
-					mysqli_close($db); // Closing Connection
-                
-             
-                
-            }
-
-    }
-}
+					mysqli_close($db); // Closing Connection               
+            }//end of else
+    }//end of if (isset($_POST['submit'])) 
+}// end of if ($_SERVER["REQUEST_METHOD"] == "POST") 
 
 ?>
 
@@ -77,8 +77,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 		<div class ="container" id="container-login">
 			<div class="container container-panou-login">
 				<ul class="lista-butoane" type="none">
-					<li id="sign-in">SIGN IN</li>
-					<li id="sign-up">  <a href="signup.html">SIGN UP </a></li>
+					<li id="sign-in"><a href="index.php">SIGN IN</a></li>
+					<li id="sign-up">  <a href="signup.php">SIGN UP </a></li>
 				</ul>
 				<div class="active-underline"></div> 
 				<form action="" method="post" id="input_form" class="form-group mb-3">

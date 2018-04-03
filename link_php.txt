@@ -11,6 +11,21 @@ https://www.formget.com/login-form-in-php/
 
 
 https://stackoverflow.com/questions/17014531/php-calling-mysql-stored-procedure-with-both-input-and-output-parameters-not
+http://php.net/manual/ro/mysqli-stmt.get-result.php ---- afisare outputuri;
+
+https://stackoverflow.com/questions/16955209/how-to-convert-the-time-from-am-pm-to-24-hour-format-in-php/39948707
+https://stackoverflow.com/questions/470617/how-to-get-the-current-date-and-time-in-php
 
 
-why don't destroy session after closing browser
+https://stackoverflow.com/questions/2814880/how-to-check-if-letter-is-upper-or-lower-in-php
+https://stackoverflow.com/questions/42467243/regex-strong-password-the-special-characters
+https://stackoverflow.com/questions/26530250/preg-match-password-validation
+
+
+https://stackoverflow.com/questions/8028482/echoing-session-variables-in-php
+
+
+
+
+
+
