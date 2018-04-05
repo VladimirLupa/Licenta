@@ -25,6 +25,16 @@ https://stackoverflow.com/questions/26530250/preg-match-password-validation
 https://stackoverflow.com/questions/8028482/echoing-session-variables-in-php
 
 
+/////// ptr mercury
+https://www.open-emr.org/wiki/index.php/Mercury_Mail_Configuration_in_Windows
+
+//// ptr mail()
+
+http://www.eggslab.net/forgot-password-recovery-script-using-php-and-mysqli/
+https://phppot.com/php/php-forgot-password-recover-code/
+
+
+
 
 
 
