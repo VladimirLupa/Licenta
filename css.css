@@ -1,0 +1,59 @@
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #2196F3;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: baseline;
+
+    margin-bottom: 30px;
+   
+  }
+
+
+
+.grid-item1{  flex-grow: 1}
+
+  .grid-container > div{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 75px;
+    margin: 15px;
+
+  }
+
+
+
+
+  .tranzitie
+  {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background: red;
+      animation: bounce 3s ease-out 1s infinite;
+      
+  }
+
+
+  /* .tranzitie:hover{
+      background: purple;
+      margin-left: 500px;
+  } */
+
+
+@keyframes bounce {
+    0%{
+        background: red
+    }
+    25%{
+        background: plum;
+    }
+    100%{
+        background: purple;
+        clip-path: polygon(0% 100%, 50% 100%, 0% 80%, 50% 80%);
+    }
+}
