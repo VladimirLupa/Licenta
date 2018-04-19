@@ -1,0 +1,120 @@
+body{
+	background-color:#2D3053;
+
+}
+
+
+.container-panou-login
+{
+
+	height:370px;
+	background-color: #363C59;
+	border: 1px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+
+
+
+#input_form{
+	position: relative;
+	margin-top: 50px;
+}
+
+
+.input-block{
+	/* width: 300px; */
+	height: 40px;
+	border:1px solid #d0d8e1;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background-color: #5E607D;
+	position: relative;
+}
+
+
+.input_password_value{
+	width: 92%;
+	/* padding-left: 25px; */
+	background-color: transparent;
+	border: 0px;
+	/* height: 100%; */
+}
+
+
+
+
+
+
+
+input[type="password"]{
+	position: relative;
+	padding-left: 25px;
+	font-size: 140%;
+	color: #d0d8e1;
+	z-index: 5;
+	text-decoration: none;
+}
+
+#password{
+	margin-bottom: 20px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+/* stilul textului din form */
+::placeholder { 
+	color:#d0d8e1;
+	text-align: center;
+    opacity: 1;
+}
+
+
+/*stilul checkboxului*/
+
+
+/* stilul butonului submit*/
+input[type=submit] {
+    /* padding:10px 100px;  */
+	background:#1851EF;
+	color: white;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+	border-radius: 10px;
+	margin-bottom: 25px; 
+	height: 45px;
+}
+
+
+/*stil link recuperare parola*/	
+
+a{
+	color:#d0d8e1;
+	text-decoration: none;
+}
+a:link{
+	color:#d0d8e1;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#d0d8e1;
+	text-decoration: none;
+}
+
+
+
+@media   (min-width: 400px) {
+    .container {
+        
+        width: 400px;
+    }
+}
